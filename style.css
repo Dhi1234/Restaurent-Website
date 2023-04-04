@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+#navbar-color{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px, rgba(0, 0, 0, 0.25) 0px 3px 7px;
+}
+#logo{
+    font-size: 25px;
+    color: #000;
+    text-shadow: 1px 1px 1px #000;
+}
+#logo img{
+    margin-bottom: 10px;
+}
+#logo span{
+    color: #0ea10e;
+}
+.nav-link{
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.4s ease;
+}
+.nav-link:hover{
+    background-color: #0ea10e;
+    color: #fff;
+    border-radius: 5px;
+}
+#btn a{
+    text-decoration: none;
+}
+#btn button{
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    color: #0ea10e;
+    border: 2px solid #0ea10e;
+    background: transparent;
+    border-radius: 5px;
+}
+#btn button:hover{
+    background: #0ea10e;
+    color: #fff;
+}
+.home{
+    height: 90vh;
+    width: 100%;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+.content h3{
+    font-size: 65px;
+    color: #0ea10e;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+.content p{
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+}
+.content p span{
+    font-family: 'Alkatra', cursive;
+}
+.content .btn{
+    width: 150px;
+    height: 40px;
+    font-size: 19px;
+    background-color: #0ea10e;
+    color: #fff;
+    border-radius: 0px;
+}
+.content .btn:hover{
+    background: transparent;
+    border: 2px solid #0ea10e;
+    color: #0ea10e;
+}
+.about h1{
+    border-bottom: 2px solid #1a631a;
+    font-weight: 700;
+    color: #0ea10e;
+}
+.about p{
+    font-size: 17px;
+    font-family: 'Alkatra', cursive;
+}
+.about button{
+    width: 150px;
+    height: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    background-color: #0ea10e;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    transition: 0.4s ease;
+}
+.about button:hover{
+    background: #114911;
+}
+.dishes h1{
+    border-bottom: 2px solid #1a631a;
+    font-weight: 700;
+    color: #0ea10e;
+}
+.dishes .card{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #ffffff, #0ea10e);
+}
+.dishes h3{
+    color: #fff;
+}
+.dishes .star{
+    color: #f3f319;
+}
+.dishes h6{
+    font-weight: 500;
+    color: #fff;
+}
+.dishes h6 span{
+    float: right;
+    cursor: pointer;
+}
+.menu .container{
+    background-color: #a9a9a947;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.menu h1{
+    border-bottom: 2px solid #1a631a;
+    font-weight: 700;
+    color: #0ea10e;
+}
+.menu p{
+    font-family: 'Alkatra', cursive;
+}
+.menu p img{
+    border-radius: 50px;
+    border: 2px solid #1a631a;
+}
+.menu p span{
+    color: #0ea10e;
+    font-size: 20px;
+}
+.chefs h1{
+    border-bottom: 2px solid #1a631a;
+    font-weight: 700;
+    color: #0ea10e;
+}
+.chefs h2{
+    color: #1a631a;
+    font-family: 'Lily Script One', cursive;
+}
+.chefs p{
+    font-family: 'Alkatra', cursive;
+}
+.gallary h1{
+    border-bottom: 2px solid #1a631a;
+    font-weight: 700;
+    color: #0ea10e;
+}
+.gallary .card{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border: 3px solid #1a631a;
+}
+.gallary .card:hover{
+    transform: translateY(-8px);
+}
+.contact .container{
+    background-color: #a9a9a947;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.contact h1{
+    border-bottom: 2px solid #1a631a;
+    font-weight: 700;
+    color: #0ea10e;
+}
+.contact .col-md-4 input{
+    border: 2px solid #1a631a;
+}
+.contact textarea{
+    border: 2px solid #1a631a;
+}
+.contact ::placeholder{
+    color: #0ea10e;
+    font-size: 17px;
+    font-family: 'Alkatra', cursive;
+}
+.btntable button{
+    height: 38px;
+    width: 200px;
+    background: transparent;
+    border: 2px solid #0ea10e;
+    font-size: 19px;
+    letter-spacing: 3px;
+    transition: 0.4s ease;
+}
+.btntable button:hover{
+    background-color: #0ea10e;
+    color: #fff;
+}
+.footer{
+    background: #000000;
+}
+.footer h3{
+    color: #0ea10e;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.footer a:hover{
+    color: #0ea10e;
+    padding-left: 5px;
+}
+.btns{
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #0ea10e;
+    border-bottom-right-radius: 30px;
+}
+.sub{
+    height: 50px;
+    width: 65%;
+    background: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-top-left-radius: 30px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #0ea10e;
+    background: #fff;
+    border: 2px solid #0ea10e;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.circle:hover{
+    background: transparent;
+    transform: scale(1.1);
+}
+.arrow{
+    position: fixed;
+    background-color: #0ea10e;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: ;
+}
